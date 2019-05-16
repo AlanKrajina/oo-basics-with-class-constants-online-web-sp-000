@@ -17,7 +17,6 @@ class Shoe
   
   def brands=(brand)
     @brand=brand
-    BRANDS.clear
     BRANDS << brand
 
   end
