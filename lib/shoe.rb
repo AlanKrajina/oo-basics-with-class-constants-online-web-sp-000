@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand
+  attr_reader :brand, :unique
 
   BRANDS=[]
 
@@ -15,5 +15,8 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-
+  def uniq=(unique)
+    @unique = unique
+    BRANDS << unique
+  end
 end
