@@ -4,7 +4,7 @@ class Shoe
 
   BRANDS=[]
 
-  def initialize(brand,unique_brand)
+  def initialize(brand)
     @brand = brand
     if brand == "unique_brand"
     BRANDS << brand
