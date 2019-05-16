@@ -3,7 +3,6 @@ class Shoe
   attr_reader :brand
 
   BRANDS=[]
-  UNIQUE=[]
 
   def initialize(brand)
     @brand = brand
@@ -18,9 +17,7 @@ class Shoe
   
   def brands=(brand)
     @brand=brand
-    if brand == "unique_brand"
-          UNIQUE << brand
-    end
+          BRANDS << brand
   end
   
 end
