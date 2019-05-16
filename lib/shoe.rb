@@ -17,6 +17,7 @@ class Shoe
   
   def brands=(unique_brand)
     @unique_brand=unique_brand
+    
     BRANDS << unique_brand
 
   end
