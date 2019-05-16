@@ -8,7 +8,6 @@ class Shoe
     @brand = brand
     if brand == "unique_brand"
     BRANDS << brand
-
   end
 
   def cobble
