@@ -9,6 +9,8 @@ class Shoe
     BRANDS << brand
      if !brand
        BRANDS.clear
+      BRANDS << brand
+
   end
 
 
