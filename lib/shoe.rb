@@ -21,6 +21,6 @@ end
     if brand == "unique_brand"
           BRANDS << brand
     end
-
+  end
   
 end
