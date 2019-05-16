@@ -19,7 +19,7 @@ class Shoe
   def brands=(brand)
     @brand=brand
     if brand == "unique_brand"
-          BRANDS << brand
+          UNIQUE << brand
     end
   end
   
