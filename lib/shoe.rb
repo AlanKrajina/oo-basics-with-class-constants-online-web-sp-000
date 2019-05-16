@@ -16,6 +16,10 @@ end
     puts "Your shoe is as good as new!"
   end
   
+  def brands=(brand)
+    @brand=brand
+    if brand == "unique_brand"
+      
 
   
 end
